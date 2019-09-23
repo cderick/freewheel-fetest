@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <DisrupInfo /> component should not render with no props 1`] = `
+<div
+  className="col-5 m-5 infoService"
+/>
+`;
+
+exports[`Test on <DisrupInfo /> component should render with all props 1`] = `
+<div
+  className="col-5 m-5 infoService"
+>
+  <section>
+    <p
+      className="linesClass"
+    >
+      <strong
+        className="h5"
+      >
+        Line:
+      </strong>
+       
+      Bakerloo
+    </p>
+    <p
+      className="allClear"
+    >
+      No service disruptions
+    </p>
+  </section>
+</div>
+`;

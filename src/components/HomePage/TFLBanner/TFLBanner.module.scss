@@ -1,0 +1,20 @@
+.containerBackground {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('../../../static/underground-banner.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+
+  h1 {
+    padding: 40px 0;
+    font-weight: bolder;
+    font-size: 4.3rem;
+    letter-spacing: 2px;
+    color: white;
+  }
+}

@@ -1,0 +1,30 @@
+.containerBackground {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url('../../../../static/cyclebanner.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 0 70px;
+
+  .customMargin {
+    margin-top: 31px;
+  }
+
+  .forms {
+    width: 33%;
+    float: left;
+    margin-right: 25px;
+  }
+
+  h1 {
+    padding: 40px 0 20px 120px;
+    font-weight: bolder;
+    font-size: 4.3rem;
+    letter-spacing: 2px;
+    color: white;
+  }
+}

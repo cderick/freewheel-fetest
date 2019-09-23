@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <TFLBanner /> component should not render with no props 1`] = `null`;
+
+exports[`Test on <TFLBanner /> component should render with min props 1`] = `
+<section>
+  <div
+    className="container-fluid containerBackground"
+  >
+    <div
+      className="row h-100"
+    >
+      <div
+        className="col my-auto text-center"
+      >
+        <h1
+          className="display-4"
+        >
+          This is my title
+        </h1>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-5 m-5 infoService"
+    />
+  </div>
+</section>
+`;

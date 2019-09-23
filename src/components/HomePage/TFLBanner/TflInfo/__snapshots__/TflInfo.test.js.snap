@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <TflInfo /> component should not render with no props 1`] = `null`;
+
+exports[`Test on <TflInfo /> component should render with all props 1`] = `
+<div
+  className="col-5 m-5"
+>
+  <section
+    className="dataClick"
+    onClick={[Function]}
+  >
+    <p>
+      <strong>
+        tube
+        : 
+      </strong>
+      Bakerloo
+      <span />
+      <span />
+    </p>
+  </section>
+  <section
+    className="dataClick"
+    onClick={[Function]}
+  >
+    <p>
+      <strong>
+        tube
+        : 
+      </strong>
+      Central
+      <span>
+        <i
+          className="fas fa-moon"
+        />
+      </span>
+      <span />
+    </p>
+  </section>
+  <section
+    className="dataClick"
+    onClick={[Function]}
+  >
+    <p>
+      <strong>
+        tube
+        : 
+      </strong>
+      Circle
+      <span />
+      <span />
+    </p>
+  </section>
+  <section
+    className="dataClick"
+    onClick={[Function]}
+  >
+    <p>
+      <strong>
+        dlr
+        : 
+      </strong>
+      DLR
+      <span />
+      <span />
+    </p>
+  </section>
+  <section
+    className="dataClick"
+    onClick={[Function]}
+  >
+    <p>
+      <strong>
+        tube
+        : 
+      </strong>
+      District
+      <span />
+      <span />
+    </p>
+  </section>
+  <section
+    className="dataClick"
+    onClick={[Function]}
+  >
+    <p>
+      <strong>
+        tube
+        : 
+      </strong>
+      Hammersmith & City
+      <span />
+      <span />
+    </p>
+  </section>
+  <section
+    className="dataClick"
+    onClick={[Function]}
+  >
+    <p>
+      <strong>
+        tube
+        : 
+      </strong>
+      Jubilee
+      <span>
+        <i
+          className="fas fa-moon"
+        />
+      </span>
+      <span />
+    </p>
+  </section>
+  <section
+    className="dataClick"
+    onClick={[Function]}
+  >
+    <p>
+      <strong>
+        overground
+        : 
+      </strong>
+      London Overground
+      <span>
+        <i
+          className="fas fa-moon"
+        />
+      </span>
+      <span />
+    </p>
+  </section>
+  <section
+    className="dataClick"
+    onClick={[Function]}
+  >
+    <p>
+      <strong>
+        tube
+        : 
+      </strong>
+      Metropolitan
+      <span />
+      <span />
+    </p>
+  </section>
+  <section
+    className="dataClick"
+    onClick={[Function]}
+  >
+    <p>
+      <strong>
+        tube
+        : 
+      </strong>
+      Northern
+      <span>
+        <i
+          className="fas fa-moon"
+        />
+      </span>
+      <span />
+    </p>
+  </section>
+  <section
+    className="dataClick"
+    onClick={[Function]}
+  >
+    <p>
+      <strong>
+        tube
+        : 
+      </strong>
+      Piccadilly
+      <span>
+        <i
+          className="fas fa-moon"
+        />
+      </span>
+      <span />
+    </p>
+  </section>
+  <section
+    className="dataClick"
+    onClick={[Function]}
+  >
+    <p>
+      <strong>
+        tube
+        : 
+      </strong>
+      Victoria
+      <span>
+        <i
+          className="fas fa-moon"
+        />
+      </span>
+      <span />
+    </p>
+  </section>
+  <section
+    className="dataClick"
+    onClick={[Function]}
+  >
+    <p>
+      <strong>
+        tube
+        : 
+      </strong>
+      Waterloo & City
+      <span />
+      <span />
+    </p>
+  </section>
+</div>
+`;

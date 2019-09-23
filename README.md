@@ -49,3 +49,18 @@ The project count with Husky and Lint Staged:
 ## Development URLs
 
 - Home screen: `http://localhost:3000/`
+
+## What to do with more time?
+
+ - Focus in more Unit test :) (Tests is never too much)
+ - Split react-router to Hire a Bike and TFL Information.
+ - Set Webpack :) (Because I like to do all my configurations)
+ - Set Global variables on SASS to have a better control in the layout
+ - Responsive (Even using bootstrap didn't have chance to look on mobile :/)
+ - Maybe give a better name for the folders :)
+ 
+## Considerations: 
+
+I worked with many types of environment in my life. Some of my components, I would change for a functional component, however some companies see as a bad practice, the same issue with spliting HTML Render in functions and call this functions in the final Render function or using/removing semicolons as is not required on JavaScript.
+
+I know how work with all ways, I just didn't set that way to not have any conflict of Bad/Good code.
