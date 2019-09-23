@@ -1,0 +1,15 @@
+{
+  "short_name": "FreeWheel FE-Test",
+  "name": "FreeWheel FE-Test",
+  "icons": [
+    {
+      "src": "http://freewheel.tv/library/uploads/2018/05/ee-icons-transparent-Black-300x300.png",
+      "type": "image/png",
+      "sizes": "300x300"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
