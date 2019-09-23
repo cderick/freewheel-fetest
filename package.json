@@ -1,20 +1,60 @@
 {
-  "name": "my-test",
-  "version": "0.1.0",
+  "name": "freewheel-fe-test",
+  "version": "1.0.0",
+  "description": "Freewheel fe-test",
+  "main": "src/index.js",
+  "author": "CristianDerick",
+  "license": "MIT",
   "private": true,
   "dependencies": {
+    "axios": "0.18.1",
+    "bootstrap": "4.3.1",
+    "immutable": "3.8.2",
+    "jquery": "3.4.0",
+    "lint-staged": "^9.2.5",
+    "moment": "2.24.0",
+    "popper.js": "1.15.0",
+    "prop-types": "15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2"
+    "react-redux": "6.0.1",
+    "react-scripts": "3.1.2",
+    "redux": "4.0.1",
+    "redux-immutable": "4.0.0",
+    "redux-promise": "0.6.0",
+    "stylelint": "^11.0.0",
+    "stylelint-config-standard": "^19.0.0"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "1.16.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "husky": "3.0.5",
+    "node-sass": "4.12.0",
+    "react-test-renderer": "^16.8.6",
+    "redux-devtools": "3.5.0",
+    "redux-mock-store": "1.5.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --watchAll=false --silent",
+    "eject": "react-scripts eject",
+    "lint:js": "eslint './src/**/*.{js,jsx}' --fix",
+    "lint:scss": "stylelint 'src/**/*.scss' --syntax scss --fix"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json}": [
+      "yarn lint:js",
+      "git add"
+    ],
+    "src/**/*.{css,scss}": [
+      "yarn lint:scss",
+      "git add"
+    ]
   },
   "browserslist": {
     "production": [
