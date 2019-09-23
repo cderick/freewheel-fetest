@@ -4,6 +4,7 @@
   "description": "Freewheel fe-test",
   "main": "src/index.js",
   "author": "CristianDerick",
+  "homepage": ".",
   "license": "MIT",
   "private": true,
   "dependencies": {
