@@ -52,10 +52,10 @@ The project count with Husky and Lint Staged:
 
 ## What to do with more time?
 
- - Focus in more Unit test :) (Tests is never too much)
+ - Focus in more Unit test as I just insert basics :) (Tests is never too much, right?)
  - Split react-router to Hire a Bike and TFL Information.
  - Set Webpack :) (Because I like to do all my configurations)
- - Set Global variables on SASS to have a better control in the layout
+ - Set Global variables on SASS to have a better control in the layout.
  - Responsive (Even using bootstrap didn't have chance to look on mobile :/)
  - Maybe give a better name for the folders :)
  

@@ -1,9 +1,22 @@
 import React from 'react'
-import { shallow } from 'enzyme'
+import renderer from 'react-test-renderer'
 import DataBanner from './DataBanner'
 
-describe('Testing render of DataBanner component', () => {
-	it('renders without crashing', () => {
-		shallow(<DataBanner />)
-	})
+const minProps = {
+	cardsData: {},
+    queryValue: 'Waterloo'
+}
+
+const componentNoprops = renderer.create(<DataBanner />)
+const componentWithProps = renderer.create(<DataBanner {...minProps}  />)
+
+describe('Test on <DataBanner /> component', () => {
+   test('should not render with no props', () => {
+      const treeNoprops = componentNoprops.toJSON()
+      expect(treeNoprops).toMatchSnapshot()
+   })
+   test('should render with min props', () => {
+      const treeProps = componentWithProps.toJSON()
+      expect(treeProps).toMatchSnapshot()
+   })
 })
